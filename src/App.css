@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.border-bottom-primary-lt{
+  border-bottom : 1px solid #9ac8ff!important
+}
+
+.border-right-primary-lt{
+  border-right : 1px solid #9ac8ff!important
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #4e9fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active{
+  background-color: #014597 !important;
+}
+
+
+.resume-card{
+  box-shadow: -2px 1px 5px 3px #f0f0f0;
+  padding: 20px !important;
+  padding-bottom: 5px !important;
+}
+
+.wd-75{
+  width: 75px;
+}
+
+@media (max-width: 992px){
+  .text-below-lg-left {
+    text-align: left !important;
+}
+
+}
+@media (min-width: 992px){
+  .text-above-lg-right {
+    text-align: right !important;
+}
+}
