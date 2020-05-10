@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Profile from './Components/Profile/profile';
 import WorkExperince from './Components/WorkExperince/workexperince';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Education from './Components/Education/education';
 import Skills from './Components/Skills/skills';
 import Git from './Components/Git/git';
@@ -13,7 +13,7 @@ import Page2 from './Components/Page2/page2';
 function App() {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <HashRouter>
         <React.Fragment>
           <div className="container ">
             <div className="row justify-content-center">
@@ -33,7 +33,7 @@ function App() {
             </div>
           </div>
         </React.Fragment>
-      </BrowserRouter>
+      </HashRouter>
     </React.Fragment>
   );
 }
