@@ -27,8 +27,8 @@ class Page2 extends React.Component {
                 <Skills />
                 <Git />
                 <div className="text-center mt-2">
-                    <Link to="/resume/profile-experince"> <div className="footer-dot mr-3 "><span className="text-white"><FontAwesomeIcon icon={faCaretLeft} /></span></div> </Link>
-                    <Link to="/resume/education-skills-git"> <div className="footer-dot active"><span className="text-white"><FontAwesomeIcon icon={faCaretRight} /></span></div> </Link>
+                    <Link to="/profile-experince"> <div className="footer-dot mr-3 "><span className="text-white"><FontAwesomeIcon icon={faCaretLeft} /></span></div> </Link>
+                    <Link to="/education-skills-git"> <div className="footer-dot active"><span className="text-white"><FontAwesomeIcon icon={faCaretRight} /></span></div> </Link>
                 </div>
             </React.Fragment>
         );

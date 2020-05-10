@@ -19,15 +19,15 @@ function App() {
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-8 resume-card mb-lg-3 mt-lg-3">
                 <Switch>
-                  <Route exact path='/resume' component={Page1} />
-                  <Route exact path='/resume/profile-experince' component={Page1} />
-                  <Route exact path='/resume/education-skills-git' component={Page2} />
-                  <Route exact path='/resume/profile' component={Profile} />
-                  <Route exact path='/resume/workexperince' component={WorkExperince} />
-                  <Route exact path='/resume/education' component={Education} />
-                  <Route exact path='/resume/skills' component={Skills} />
-                  <Route exact path='/resume/git' component={Git} />
-                  <Route exact path='/resume/social' component={Social} />
+                  <Route exact path='' component={Page1} />
+                  <Route exact path='/profile-experince' component={Page1} />
+                  <Route exact path='/education-skills-git' component={Page2} />
+                  <Route exact path='/profile' component={Profile} />
+                  <Route exact path='/workexperince' component={WorkExperince} />
+                  <Route exact path='/education' component={Education} />
+                  <Route exact path='/skills' component={Skills} />
+                  <Route exact path='/git' component={Git} />
+                  <Route exact path='/social' component={Social} />
                 </Switch>
               </div>
             </div>
