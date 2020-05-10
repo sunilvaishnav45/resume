@@ -23,8 +23,8 @@ class Page1 extends React.Component {
                 <Profile />
                 <WorkExperince />
                 <div className="text-center mt-2">
-                    <Link to="/profile-experince"> <div className="footer-dot mr-3 active"><span className="text-white"><FontAwesomeIcon icon={faCaretLeft} /></span></div> </Link>
-                    <Link to="/education-skills-git"> <div className="footer-dot "><span className="text-white"><FontAwesomeIcon icon={faCaretRight} /></span></div> </Link>
+                    <Link to="/resume/profile-experince"> <div className="footer-dot mr-3 active"><span className="text-white"><FontAwesomeIcon icon={faCaretLeft} /></span></div> </Link>
+                    <Link to="/resume/education-skills-git"> <div className="footer-dot "><span className="text-white"><FontAwesomeIcon icon={faCaretRight} /></span></div> </Link>
                 </div>
             </React.Fragment>
         );
