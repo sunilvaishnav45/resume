@@ -22,6 +22,12 @@ class Git extends React.Component {
                             technologies: "Java, Web socket, Spring, Hibernate, JavaScript, jQuery, MySql",
                         },
                         {
+                            name: "Inventory Management System",
+                            description: "Inventory menagment system helps shopkeeper to manage his/her shop.Tool includes analysis of stock, notify about upcoming deliveries, customer data and billing system.",
+                            projectURL: "https://sunilvaishnav45.github.io/ims-web/",
+                            technologies: "Java, Spring Boot, Hibernate, Reactjs, MySql, Micro services",
+                        },
+                        {
                             name: "Quiz",
                             description: "Multiple choice questions Show correct and wrong answer after completing of quiz Show user score card after result User can’t skip any question without answering If user skip any question, result won’t be seen to user.",
                             projectURL: "https://sunilvaishnav45.github.io/quizass/instruction",
