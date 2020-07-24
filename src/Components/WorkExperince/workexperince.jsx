@@ -11,7 +11,7 @@ class WorkExperince extends React.Component {
         this.state = {
             experince: [
                 {
-                    company: "Talentica Software, Pune",
+                    company: "Talentica Software",
                     designation: "Software Engineer",
                     startDate: "04/20",
                     endDate: "Persent",
