@@ -10,23 +10,23 @@ class WorkExperince extends React.Component {
         super();
         this.state = {
             experince: [
-                // {
-                //     company: "Talentica Software, Pune",
-                //     designation: "Software Engineer",
-                //     startDate: "04/20",
-                //     endDate: "Persent",
-                //     companyURL: "https://www.talentica.com/",
-                //     projects: [
-                //         {
-                //             name: "Tala Security",
-                //             teamSize: "12",
-                //             description: "Based on CSP Policy, CSP makes it possible for server administrators to reduce or eliminate the vectors by which XSS can occur by specifying the domains that the browser should consider to be valid sources of executable scripts.",
-                //             projectURL: "https://www.talasecurity.io/",
-                //             technologies: "Java, Spark, Postgrey, Reactjs, Nodejs",
-                //             architecture: "Micro services",
-                //         }
-                //     ],
-                // },
+                {
+                    company: "Talentica Software, Pune",
+                    designation: "Software Engineer",
+                    startDate: "04/20",
+                    endDate: "Persent",
+                    companyURL: "https://www.talentica.com/",
+                    projects: [
+                        {
+                            name: "Tala Security",
+                            teamSize: "12",
+                            description: "Based on CSP Policy, CSP makes it possible for server administrators to reduce or eliminate the vectors by which XSS can occur by specifying the domains that the browser should consider to be valid sources of executable scripts.",
+                            projectURL: "https://www.talasecurity.io/",
+                            technologies: "Java, Spark, Postgrey, Reactjs, Nodejs",
+                            architecture: "Micro services",
+                        }
+                    ],
+                },
                 {
                     company: "Magicbricks, Bangalore",
                     designation: "Software Engineer",
