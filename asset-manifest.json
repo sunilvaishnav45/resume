@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.75165017.chunk.css",
-    "main.js": "/resume/static/js/main.7b29a785.chunk.js",
-    "main.js.map": "/resume/static/js/main.7b29a785.chunk.js.map",
+    "main.css": "/resume/static/css/main.e2b32bdb.chunk.css",
+    "main.js": "/resume/static/js/main.b9e65380.chunk.js",
+    "main.js.map": "/resume/static/js/main.b9e65380.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.adcd7a6d.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.adcd7a6d.js.map",
     "static/css/2.de424728.chunk.css": "/resume/static/css/2.de424728.chunk.css",
-    "static/js/2.fa017c94.chunk.js": "/resume/static/js/2.fa017c94.chunk.js",
-    "static/js/2.fa017c94.chunk.js.map": "/resume/static/js/2.fa017c94.chunk.js.map",
+    "static/js/2.d0cdef65.chunk.js": "/resume/static/js/2.d0cdef65.chunk.js",
+    "static/js/2.d0cdef65.chunk.js.map": "/resume/static/js/2.d0cdef65.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.5da496bdf6bea0672869a3d08706fbf1.js": "/resume/precache-manifest.5da496bdf6bea0672869a3d08706fbf1.js",
+    "precache-manifest.9926567ddab65f95fae3af8f44aa3839.js": "/resume/precache-manifest.9926567ddab65f95fae3af8f44aa3839.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/resume/static/css/2.de424728.chunk.css.map",
-    "static/css/main.75165017.chunk.css.map": "/resume/static/css/main.75165017.chunk.css.map",
-    "static/js/2.fa017c94.chunk.js.LICENSE.txt": "/resume/static/js/2.fa017c94.chunk.js.LICENSE.txt",
+    "static/css/main.e2b32bdb.chunk.css.map": "/resume/static/css/main.e2b32bdb.chunk.css.map",
+    "static/js/2.d0cdef65.chunk.js.LICENSE.txt": "/resume/static/js/2.d0cdef65.chunk.js.LICENSE.txt",
+    "static/media/Resume_sunil_updated.docx": "/resume/static/media/Resume_sunil_updated.38eb5552.docx",
+    "static/media/Resume_sunil_updated.pdf": "/resume/static/media/Resume_sunil_updated.78621a6d.pdf",
     "static/media/sunil.jpeg": "/resume/static/media/sunil.aad88416.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.adcd7a6d.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.fa017c94.chunk.js",
-    "static/css/main.75165017.chunk.css",
-    "static/js/main.7b29a785.chunk.js"
+    "static/js/2.d0cdef65.chunk.js",
+    "static/css/main.e2b32bdb.chunk.css",
+    "static/js/main.b9e65380.chunk.js"
   ]
 }
