@@ -14,12 +14,12 @@ class Skills extends React.Component {
                     details: [
                         {
                             name: "Backend",
-                            skills: "Java, Spring, Spring Boot, Hibernate, JPA, Nodejs",
+                            skills: "Java, Spring Boot, Hibernate, JPA",
                             icon : faCode
                         },
                         {
                             name: "Frontend",
-                            skills: "JavaScrips, Angualr 6, Reactjs, jQuery, HTML, CSS, SCSS",
+                            skills: "JavaScrips, Angualr 6, Reactjs, Vue-js, jQuery, HTML, CSS",
                             icon : faCode
                         },
                         {
