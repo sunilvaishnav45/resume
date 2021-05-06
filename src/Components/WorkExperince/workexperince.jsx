@@ -31,7 +31,7 @@ class WorkExperince extends React.Component {
                     company: "Talentica Software",
                     designation: "Software Engineer",
                     startDate: "04/20",
-                    endDate: "Persent",
+                    endDate: "10/20",
                     companyURL: "https://www.talentica.com/",
                     projects: [
                         {
