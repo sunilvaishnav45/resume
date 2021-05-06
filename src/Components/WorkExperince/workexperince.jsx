@@ -11,6 +11,23 @@ class WorkExperince extends React.Component {
         this.state = {
             experince: [
                 {
+                    company: "EzCred",
+                    designation: "Software Engineer",
+                    startDate: "10/20",
+                    endDate: "Present",
+                    companyURL: "https://ezcred.in/",
+                    projects: [
+                        {
+                            name: "EzCred",
+                            teamSize: "8",
+                            description: "Enable EMI Financing for Offline and Online Customer Experiences",
+                            projectURL: "https://web.ezcred.in/",
+                            technologies: "Java, Hibernate, Dropwizard, MySql, Vue-js",
+                            architecture: "Micro services",
+                        }
+                    ],
+                },
+                {
                     company: "Talentica Software",
                     designation: "Software Engineer",
                     startDate: "04/20",
