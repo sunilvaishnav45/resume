@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode,faDatabase, faBuilding, faFileCode} from '@fortawesome/free-solid-svg-icons';
+import { faCode,faDatabase, faBuilding, faFileCode, faChartBar} from '@fortawesome/free-solid-svg-icons';
 
 class Skills extends React.Component {
 
@@ -16,6 +16,11 @@ class Skills extends React.Component {
                             name: "Backend",
                             skills: "Java, Spring Boot, Hibernate, JPA",
                             icon : faCode
+                        },
+                        {
+                            name: "Queues",
+                            skills: "RabbitMQ, Kafka",
+                            icon : faChartBar
                         },
                         {
                             name: "Frontend",

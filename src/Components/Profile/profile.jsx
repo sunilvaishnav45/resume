@@ -18,7 +18,8 @@ class Profile extends React.Component {
                 dob: "17/08/1994",
                 nationality: "Indian",
                 mobile: "9716209524",
-                email: "sunilvaishnav45@gmail.com"
+                email: "sunilvaishnav45@gmail.com",
+                title: "Tech Lead @ foundit.in | NITian"
             }
         };
     }
@@ -35,6 +36,7 @@ class Profile extends React.Component {
                     </div>
                     <div className="col-6 align-self-center text-above-lg-right text-below-lg-left mb-2 mb-lg-0">
                         <h6 className="font-weight-bold text-uppercase">{this.state.employee.firstName} <span className="">{this.state.employee.lastName}</span></h6>
+                        <div>{this.state.employee.title}</div>
                         <div className="border-primary last-name d-none d-lg-block ">
                         </div>
                     </div>

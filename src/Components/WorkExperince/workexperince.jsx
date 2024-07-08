@@ -11,10 +11,68 @@ class WorkExperince extends React.Component {
         this.state = {
             experince: [
                 {
+                    company: "Foundit (Formerly Monster APAC & ME)",
+                    designation: "Tech Lead",
+                    startDate: "07/22",
+                    endDate: "Present",
+                    companyURL: "https://www.foundit.in/",
+                    projects: [
+                        {
+                            name: "Outreach",
+                            teamSize: "8",
+                            description: "Outreach is structured to facilitate communication between recruiters and job seekers through email, considering the recruiter's current inventory. The project incorporates notable features such as AI-powered email content generation, personalized emails tailored for seekers, and the inclusion of employer branding in recruiter communications.",
+                            projectURL: "https://recruiter.foundit.in/edge/recruiter-outreach-email/campaing/listing",
+                            technologies: "Java8, SpringBoot, Hibernate, ReactJS, MySQL, MongoDB, RabbitMQ, Kafka",
+                            architecture: "Micro services",
+                        },
+                        {
+                            name: "Inventory",
+                            teamSize: "5",
+                            description: "The Inventory module is designed to automatically consume and calculate daily, monthly, and remaining inventory for recruiters based on a zero-login parent-child relationship. This project enables downstream projects to take action based on available inventory, such as profile views, profile Excel downloads, resume searches, and outreach activities.",
+                            projectURL: "https://recruiter.foundit.in/edge/recruiter-outreach-email/campaing/listing",
+                            technologies: "Java8, SpringBoot, Hibernate, MySQL, RabbitMQ",
+                            architecture: "Micro services",
+                        },
+                        {
+                            name: "Recruiter Actions",
+                            teamSize: "5",
+                            description: "This project manages all recruiter actions, including viewing profiles, downloading profiles, marking profiles as favorites, and moving profiles through different stages of the hiring funnel.",
+                            projectURL: "https://recruiter.foundit.in/edge/foldermanagement/manage-folder",
+                            technologies: "Java8, SpringBoot, Hibernate, ReactJS, MySQL, RabbitMQ",
+                            architecture: "Micro services",
+                        },
+                        {
+                            name: "Profile and Job applies sync",
+                            teamSize: "5",
+                            description: "This project facilitates synchronization between seeker profiles and job applications with the recruiter platform, handling high throughput and critical business logic seamlessly.",
+                            projectURL: "https://recruiter.foundit.in/edge/foldermanagement/manage-folder",
+                            technologies: "Java8, SpringBoot, Hibernate, MySQL, Kafka",
+                            architecture: "Micro services",
+                        }
+                    ],
+                },
+                {
+                    company: "Cognizant",
+                    designation: "Software Engineer",
+                    startDate: "07/21",
+                    endDate: "07/22",
+                    companyURL: "https://www.cognizant.com/in/en",
+                    projects: [
+                        {
+                            name: "Discover",
+                            teamSize: "8",
+                            description: "Compare and apply for the best Discover credit card for the customer",
+                            projectURL: "https://www.discover.com/credit-cards/",
+                            technologies: "Java, MySQL, ReactJS",
+                            architecture: "Monolithic",
+                        }
+                    ],
+                },
+                {
                     company: "EzCred",
                     designation: "Software Engineer",
                     startDate: "10/20",
-                    endDate: "Present",
+                    endDate: "06/21",
                     companyURL: "https://ezcred.in/",
                     projects: [
                         {
