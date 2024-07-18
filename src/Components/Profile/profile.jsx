@@ -59,13 +59,13 @@ class Profile extends React.Component {
                             <FontAwesomeIcon icon={faEnvelope} /> {this.state.employee.email}
                         </div>
                     </div>
-                    {/* <div className="col-lg-6 col-12 align-self-center text-below-lg-left">
+                    <div className="col-lg-6 col-12 align-self-center text-below-lg-left">
                         <div className="small pl-2 mb-1">
                             <FontAwesomeIcon icon={faDownload} /> 
                             <a class="mr-2 ml-2" href={require('../../resources/Resume_sunil_updated.pdf')} download>PDF</a>
                             <a href={require('../../resources/Resume_sunil_updated.docx')} download>DOC</a>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
                 <div className="border-bottom-primary-lt mt-3"></div>
             </React.Fragment>
