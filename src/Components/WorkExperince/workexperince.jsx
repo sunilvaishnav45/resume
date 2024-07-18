@@ -19,7 +19,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "Outreach",
-                            teamSize: "8",
+                            teamSize: "8+",
                             description: "Outreach is structured to facilitate communication between recruiters and job seekers through email, considering the recruiter's current inventory. The project incorporates notable features such as AI-powered email content generation, personalized emails tailored for seekers, and the inclusion of employer branding in recruiter communications.",
                             projectURL: "https://recruiter.foundit.in/edge/recruiter-outreach-email/campaing/listing",
                             technologies: "Java8, SpringBoot, Hibernate, ReactJS, MySQL, MongoDB, RabbitMQ, Kafka",
@@ -27,7 +27,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Inventory",
-                            teamSize: "5",
+                            teamSize: "8+",
                             description: "The Inventory module is designed to automatically consume and calculate daily, monthly, and remaining inventory for recruiters based on a zero-login parent-child relationship. This project enables downstream projects to take action based on available inventory, such as profile views, profile Excel downloads, resume searches, and outreach activities.",
                             projectURL: "https://recruiter.foundit.in/edge/recruiter-outreach-email/campaing/listing",
                             technologies: "Java8, SpringBoot, Hibernate, MySQL, RabbitMQ",
@@ -35,7 +35,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Recruiter Actions",
-                            teamSize: "5",
+                            teamSize: "5+",
                             description: "This project manages all recruiter actions, including viewing profiles, downloading profiles, marking profiles as favorites, and moving profiles through different stages of the hiring funnel.",
                             projectURL: "https://recruiter.foundit.in/edge/foldermanagement/manage-folder",
                             technologies: "Java8, SpringBoot, Hibernate, ReactJS, MySQL, RabbitMQ",
@@ -43,7 +43,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Profile and Job applies sync",
-                            teamSize: "5",
+                            teamSize: "5+",
                             description: "This project facilitates synchronization between seeker profiles and job applications with the recruiter platform, handling high throughput and critical business logic seamlessly.",
                             projectURL: "https://recruiter.foundit.in/edge/foldermanagement/manage-folder",
                             technologies: "Java8, SpringBoot, Hibernate, MySQL, Kafka",
@@ -60,7 +60,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "Discover",
-                            teamSize: "8",
+                            teamSize: "8+",
                             description: "Compare and apply for the best Discover credit card for the customer",
                             projectURL: "https://www.discover.com/credit-cards/",
                             technologies: "Java, MySQL, ReactJS",
@@ -77,7 +77,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "EzCred",
-                            teamSize: "8",
+                            teamSize: "10+",
                             description: "Enable EMI Financing for Offline and Online Customer Experiences",
                             projectURL: "https://web.ezcred.in/",
                             technologies: "Java, Hibernate, Dropwizard, MySql, Vue-js",
@@ -94,7 +94,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "Tala Security",
-                            teamSize: "12",
+                            teamSize: "12+",
                             description: "Based on CSP Policy, CSP makes it possible for server administrators to reduce or eliminate the vectors by which XSS can occur by specifying the domains that the browser should consider to be valid sources of executable scripts.",
                             projectURL: "https://www.talasecurity.io/",
                             technologies: "Java, Spark, Postgrey, Reactjs, Nodejs",
@@ -111,7 +111,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "PG",
-                            teamSize: "3",
+                            teamSize: "6+",
                             description: "Helps user to find PGs in a city based on applied filter. It also helps to see all the details for PG which includes aminities, similar PGs near by and more PGs by same owner.",
                             projectURL: "https://www.magicbricks.com/property-for-rent/residential-paying-guest?cityName=Bangalore",
                             technologies: "Java, Spring Boot, MySql, Hibernate, Solr, JSP, JavaScript, jQuery",
@@ -119,7 +119,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Plot",
-                            teamSize: "6",
+                            teamSize: "6+",
                             description: "Shows all the details of a corridor which includes MVP of corridor, top localities, top agent, exclusive coverage, trending plots and more investment corridors.",
                             projectURL: "https://www.magicbricks.com/investment-corridors/Bangalore-Airport-Corridor-in-Bangalore",
                             technologies: "Java, Spring Boot, MySql, Hibernate, Solr, JSP, JavaScript, jQuery",
@@ -136,7 +136,7 @@ class WorkExperince extends React.Component {
                     projects: [
                         {
                             name: "Docket Review",
-                            teamSize: "3",
+                            teamSize: "6+",
                             description: "Tool where analytics is done based on docket status and feedback given by a reviewer team in form of file upload, comments which helps attorney to make further decision on docket.",
                             projectURL: "https://www.gizbel.com/",
                             technologies: "Java, Spring , MySql, Hibernate, JSP, JavaScript, jQuery, BootStrap",
@@ -144,7 +144,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Annuity Review",
-                            teamSize: "3",
+                            teamSize: "6+",
                             description: "Tool which helps attorney to analyse business status of a docket where reviewer team helps attorney to take next decision.",
                             projectURL: "https://www.gizbel.com/",
                             technologies: "Java, Spring , MySql, Hibernate, JSP, JavaScript, jQuery, BootStrap",
@@ -152,7 +152,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Portfolio",
-                            teamSize: "2",
+                            teamSize: "5+",
                             description: "Based on keyword tool genrates protfolio of docket / docket family / patents.",
                             projectURL: "https://www.gizbel.com/",
                             technologies: "Java, Spring , MySql, Hibernate, JSP, JavaScript, jQuery, BootStrap",
@@ -160,7 +160,7 @@ class WorkExperince extends React.Component {
                         },
                         {
                             name: "Trademark",
-                            teamSize: "3",
+                            teamSize: "5+",
                             description: "To track 3rd party patents.",
                             projectURL: "https://www.gizbel.com/",
                             technologies: "Nodejs, Express , MySql, Sequlize, Angular 6, BootStrap",
