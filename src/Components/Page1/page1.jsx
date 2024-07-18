@@ -6,6 +6,7 @@ import Skills from '../Skills/skills';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight, faCaretLeft } from '@fortawesome/free-solid-svg-icons';
+import Git from '../Git/git';
 
 class Page1 extends React.Component {
 
