@@ -27,7 +27,6 @@ class Page1 extends React.Component {
                 <Skills />
                 <WorkExperince />
                 <Education />
-                <Skills />
                 <Git />
             </React.Fragment>
         );
