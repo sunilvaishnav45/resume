@@ -23,8 +23,8 @@ class Page1 extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Skills />
                 <Profile />
+                <Skills />
                 <WorkExperince />
                 <Education />
                 <Skills />
