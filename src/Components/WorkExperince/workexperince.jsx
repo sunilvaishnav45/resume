@@ -32,7 +32,7 @@ class WorkExperince extends React.Component {
                             projectURL: "https://www.autodesk.com/in",
                             technologies: "Java8, SpringBoot, Hibernate, ReactJS, DynamoDB, AWS services (Lambda, EC2, EventBridge, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store, SQS etc)",
                             architecture: "Micro services",
-                        },
+                        }
                     ],
                 },
                 {
