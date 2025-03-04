@@ -14,7 +14,7 @@ class Profile extends React.Component {
             employee: {
                 firstName: "Sunil",
                 lastName: "Vaishnav",
-                homeAddres: "Satanami Bhawan Gaytri Nagar, Jaitaran,Rajasthan",
+                homeAddres: "G-101, Hamilton Homes by SJR Primecorp, Gattahalli, Bengaluru, Karnataka",
                 dob: "17/08/1994",
                 nationality: "Indian",
                 mobile: "9716209524",
