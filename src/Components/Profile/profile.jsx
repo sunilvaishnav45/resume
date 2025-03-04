@@ -1,7 +1,7 @@
 import React from 'react';
 import './profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBirthdayCake, faPhone, faEnvelope, faHome, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faBirthdayCake, faPhone, faEnvelope, faHome, faDownload, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 class Profile extends React.Component {
     /**
@@ -19,7 +19,8 @@ class Profile extends React.Component {
                 nationality: "Indian",
                 mobile: "9716209524",
                 email: "sunilvaishnav45@gmail.com",
-                title: "Tech Lead @ foundit.in | NITian"
+                title: "Tech Lead @ Quarks | NITian",
+                experince : "7+ Yrs"
             }
         };
     }
@@ -64,6 +65,11 @@ class Profile extends React.Component {
                             <FontAwesomeIcon icon={faDownload} /> 
                             <a class="mr-2 ml-2" href={require('../../resources/Resume_sunil_updated.pdf')} download>PDF</a>
                             <a href={require('../../resources/Resume_sunil_updated.docx')} download>DOC</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-12 align-self-center text-above-lg-right text-below-lg-left">
+                        <div className="small pl-2 mb-1">
+                            <FontAwesomeIcon icon={faBriefcase} /> {this.state.employee.experince}
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ class Skills extends React.Component {
                     details: [
                         {
                             name: "Backend",
-                            skills: "Java, Spring Boot, Hibernate, JPA",
+                            skills: "Java, Spring Boot, AWS, Hibernate, JPA",
                             icon : faCode
                         },
                         {
@@ -29,7 +29,7 @@ class Skills extends React.Component {
                         },
                         {
                             name: "Data base",
-                            skills: "MySql, Postgrey, Solr",
+                            skills: "MySql, Postgrey, Solr, Dynamodb",
                             icon : faDatabase
                         },
                         {

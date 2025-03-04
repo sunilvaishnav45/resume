@@ -23,8 +23,7 @@ class Page2 extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Education />
-                <Skills />
+                <WorkExperince />
                 <Git />
                 <div className="text-center mt-2">
                     <Link to="/resume/profile-experince"> <div className="footer-dot mr-3 "><span className="text-white"><FontAwesomeIcon icon={faCaretLeft} /></span></div> </Link>
