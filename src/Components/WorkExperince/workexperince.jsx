@@ -18,19 +18,25 @@ class WorkExperince extends React.Component {
                     companyURL: "https://www.qtsolv.com/",
                     projects: [
                         {
-                            name: "MuleSoft to Java AWS Migration",
+                            name: "AutoDesk Learning",
                             teamSize: "8+",
-                            description: "MuleSoft is a legacy tool being migrated to a modern tech stack, including Java, Spring Boot, and Node.js. This migration enables seamless synchronization between the ECC server and the S/4HANA database, integrating complex business logic and downstream API calls.",
+                            description: "AutoDesk Learning is a platform where admins create and assign learning plans to students, track their progress, and request live classes with coaches via Teams or Zoom.",
                             projectURL: "https://www.autodesk.com/in",
                             technologies: "Java8, SpringBoot, Hibernate, NodeJS, MongoDB, AWS services (Lambda, EC2, EventBridge, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store, SQS etc)",
                             architecture: "Micro services",
-                        },
-                        {
+                        },{
                             name: "Contentful FLM connector",
                             teamSize: "8+",
                             description: "The Contentful FLM connector is a project designed to translate English content into any locale chosen by the marketer, utilizing a downstream service like FLM.",
                             projectURL: "https://www.autodesk.com/in",
                             technologies: "Java8, SpringBoot, Hibernate, ReactJS, DynamoDB, AWS services (Lambda, EC2, EventBridge, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store, SQS etc)",
+                            architecture: "Micro services",
+                        },{
+                            name: "MuleSoft to Java AWS Migration",
+                            teamSize: "8+",
+                            description: "MuleSoft is a legacy tool being migrated to a modern tech stack, including Java, Spring Boot, and Node.js. This migration enables seamless synchronization between the ECC server and the S/4HANA database, integrating complex business logic and downstream API calls.",
+                            projectURL: "https://www.autodesk.com/in",
+                            technologies: "Java8, SpringBoot, Hibernate, NodeJS, MongoDB, AWS services (Lambda, EC2, EventBridge, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store, SQS etc)",
                             architecture: "Micro services",
                         }
                     ],

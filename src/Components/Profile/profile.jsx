@@ -33,7 +33,7 @@ class Profile extends React.Component {
             <React.Fragment>
                 <div className="row">
                     <div className="col-6 text-left">
-                        <img src={require('../../resources/sunil.jpeg')} className="rounded-circle" height="135" width="135" />
+                        <img src={require('../../resources/sunil.png')} className="rounded-circle" height="135" width="135" />
                     </div>
                     <div className="col-6 align-self-center text-above-lg-right text-below-lg-left mb-2 mb-lg-0">
                         <h6 className="font-weight-bold text-uppercase">{this.state.employee.firstName} <span className="">{this.state.employee.lastName}</span></h6>
@@ -64,7 +64,7 @@ class Profile extends React.Component {
                         <div className="small pl-2 mb-1">
                             <FontAwesomeIcon icon={faDownload} /> 
                             <a class="mr-2 ml-2" href={require('../../resources/Resume_sunil_updated.pdf')} download>PDF</a>
-                            <a href={require('../../resources/Resume_sunil_updated.docx')} download>DOC</a>
+                            {/* <a href={require('../../resources/Resume_sunil_updated.docx')} download>DOC</a> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 align-self-center text-above-lg-right text-below-lg-left">
