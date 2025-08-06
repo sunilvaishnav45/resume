@@ -13,16 +13,16 @@ class WorkExperince extends React.Component {
                 {
                     company: "Quarks",
                     designation: "Tech Lead",
-                    startDate: "08/24",
+                    startDate: "August-2024",
                     endDate: "Present",
                     companyURL: "https://www.qtsolv.com/",
                     projects: [
                         {
-                            name: "AutoDesk Learning",
+                            name: "AutoDesk Customer Success",
                             teamSize: "8+",
-                            description: "AutoDesk Learning is a platform where admins create and assign learning plans to students, track their progress, and request live classes with coaches via Teams or Zoom.",
+                            description: "AutoDesk Success is a platform where admins create and assign learning plans to students, track their progress, and request live classes with coaches via Teams or Zoom.",
                             projectURL: "https://www.autodesk.com/in",
-                            technologies: "Java8, SpringBoot, Hibernate, NodeJS, MongoDB, AWS services (Lambda, EC2, EventBridge, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store, SQS etc)",
+                            technologies: "NodeJS, MySQL, ReactJS, AWS services (Lambda, EC2, API Gateway, CloudFormation, CloudWatch, Parameter Store, Scerete Store etc)",
                             architecture: "Micro services",
                         },{
                             name: "Contentful FLM connector",
@@ -44,8 +44,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "Foundit (Formerly Monster APAC & ME)",
                     designation: "Tech Lead",
-                    startDate: "07/22",
-                    endDate: "08/24",
+                    startDate: "July-2022",
+                    endDate: "August-2024",
                     companyURL: "https://www.foundit.in/",
                     projects: [
                         {
@@ -85,8 +85,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "Cognizant",
                     designation: "Software Engineer",
-                    startDate: "07/21",
-                    endDate: "07/22",
+                    startDate: "July-2021",
+                    endDate: "July-2022",
                     companyURL: "https://www.cognizant.com/in/en",
                     projects: [
                         {
@@ -102,8 +102,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "EzCred",
                     designation: "Software Engineer",
-                    startDate: "10/20",
-                    endDate: "06/21",
+                    startDate: "Sept-2020",
+                    endDate: "June-2020",
                     companyURL: "https://ezcred.in/",
                     projects: [
                         {
@@ -119,8 +119,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "Talentica Software",
                     designation: "Software Engineer",
-                    startDate: "04/20",
-                    endDate: "10/20",
+                    startDate: "March-2020",
+                    endDate: "Sept-2020",
                     companyURL: "https://www.talentica.com/",
                     projects: [
                         {
@@ -136,8 +136,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "Magicbricks, Bangalore",
                     designation: "Software Engineer",
-                    startDate: "11/19",
-                    endDate: "04/20",
+                    startDate: "Nov-2019",
+                    endDate: "March-2020",
                     companyURL: "https://www.magicbricks.com/",
                     projects: [
                         {
@@ -161,8 +161,8 @@ class WorkExperince extends React.Component {
                 {
                     company: "GIZBEL Technology, Bangalore",
                     designation: "Software Engineer",
-                    startDate: "12/17",
-                    endDate: "10/19",
+                    startDate: "Dec-2017",
+                    endDate: "Oct-2019",
                     companyURL: "https://www.gizbel.com/",
                     projects: [
                         {
@@ -217,7 +217,8 @@ class WorkExperince extends React.Component {
                 {this.state.experince.map((value, index) => {
                     return (<div className="row position-relative">
                         <div className="col-3 text-left border-right-primary-lt pb-3">
-                            <span className="small pl-2">{value.startDate}- {value.endDate}</span>
+                            <div className="small pl-2">{value.startDate}</div>
+                            <div className="small pl-2"> to {value.endDate}</div>
                         </div>
                         <div className="col-9 pb-3">
                             <div className="workexp-dot"></div>

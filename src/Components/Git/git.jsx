@@ -11,7 +11,7 @@ class Git extends React.Component {
                 {
                     profileName: "Sunil Vaishnav",
                     profileProject: "GIT projects",
-                    startDate: "09/17",
+                    startDate: "Sept-2017",
                     endDate: "Persent",
                     gitURL: "https://github.com/sunilvaishnav45",
                     projects: [
