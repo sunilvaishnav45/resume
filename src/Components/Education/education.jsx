@@ -54,7 +54,8 @@ class Education extends React.Component {
                 {this.state.education.map((value, index) => {
                     return (<div className="row position-relative">
                         <div className="col-3 text-left border-right-primary-lt pb-3">
-                            <span className="small pl-2">{value.startDate}- {value.endDate}</span>
+                            <div className="small pl-2">{value.startDate}</div>
+                            <div className="small pl-2"> to {value.endDate}</div>
                         </div>
                         <div className="col-9 pb-3">
                             <div className="education-dot"></div>
