@@ -1,7 +1,7 @@
 import React from 'react';
 import './profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBirthdayCake, faPhone, faEnvelope, faHome, faDownload, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBirthdayCake, faPhone, faEnvelope, faHome, faDownload, faBriefcase, faCode } from '@fortawesome/free-solid-svg-icons';
 
 class Profile extends React.Component {
     /**
@@ -20,7 +20,10 @@ class Profile extends React.Component {
                 mobile: "9716209524",
                 email: "sunilvaishnav45@gmail.com",
                 title: "Tech Lead @ Quarks | NITian",
-                experince : "7+ Yrs"
+                experince : "7+ Yrs",
+                leetcode: "https://leetcode.com/u/sunilvaishnav45/",
+                linkedIn: "https://www.linkedin.com/in/sunil-vaishnav-42aa68148/"
+
             }
         };
     }
@@ -58,6 +61,14 @@ class Profile extends React.Component {
                         </div>
                         <div className="small pl-2 mb-1">
                             <FontAwesomeIcon icon={faEnvelope} /> {this.state.employee.email}
+                        </div>
+                        <div className="small pl-2 mb-1">
+                            <FontAwesomeIcon icon={faCode} /> 
+                            <a class="mr-2 ml-2" href={this.state.employee.leetcode} target='_blank'>LeetCode</a>
+                        </div>
+                       <div className="small pl-2 mb-1">
+                            <FontAwesomeIcon icon={faBriefcase} /> 
+                            <a class="mr-2 ml-2" href={this.state.employee.linkedIn} target='_blank'>LinkedIn</a>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 align-self-center text-below-lg-left">
