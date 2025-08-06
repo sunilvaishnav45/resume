@@ -12,8 +12,8 @@ class Education extends React.Component {
                 {
                     institute: "National Institute Of Technology, Delhi",
                     branch: "Branch - Electronics and Communication",
-                    startDate: "08/13",
-                    endDate: "04/17",
+                    startDate: "August-2013",
+                    endDate: "April-2017",
                     instituteURL: "https://nitdelhi.ac.in/",
                     standered: "B.Tech",
                     result: "CGPA - 7.13",
